@@ -50,7 +50,7 @@ body {
 .active, #menu-center ul li a:hover  {
     font-family:'Droid Sans', serif;
     font-size: 14px;
-    color: #fff;
+    color: deeppink;
     text-decoration: none;
     line-height: 50px;
     background-color: rgba(0, 0, 0, 0.12);
@@ -60,7 +60,7 @@ body {
 a {
     font-family:'Droid Sans', serif;
     font-size: 14px;
-    color: black;
+    color: blue;
     text-decoration: none;
     line-height: 72px;
 }
