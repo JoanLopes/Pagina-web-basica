@@ -127,15 +127,6 @@ p {
     height: 600px;
 }
 
-#sobre h1.ingles {
-    color: rgba(0, 0, 0, 0.2);
-    position: absolute;
-    font-size: 100px;
-    text-align: center;
-    margin-left: 510px;
-    margin-top: 40px;
-}
-
 #sobre h1.portugues {
     position: absolute;
     color: black;
@@ -163,14 +154,6 @@ p {
     font-size: 2.5em;
     margin-top: 450px;
     margin-left: 180px;
-}
-
-#ingles {
-    position: absolute;
-    margin-left: 230px;
-    margin-top: 475px;
-    color: rgba(0, 0, 0, 0.2);
-    font-size: 2.5em;
 }
 
 #botao_anterior, #botao_proximo {
