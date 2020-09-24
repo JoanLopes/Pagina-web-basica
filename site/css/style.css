@@ -1,0 +1,952 @@
+html  {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0)), url(../Imagens/fundo.png);
+    background-attachment: fixed;
+    margin: auto;
+}
+#home {
+    height: 600px;
+    child-align: top;
+}
+
+#intro h1 {
+    margin: 100px;
+}
+
+.menu {
+    width: 170%;
+    height: 170px;
+    position: fixed;
+    background-color:rgba(0,0,0,0.0);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+#menu-center {
+    width: 980px;
+    height: 75px;
+    margin: 0 auto;
+}
+#menu-center ul {
+    margin: 0 0 0 0;
+}
+#menu-center ul li a{
+    padding: 32px 40px;
+}
+#menu-center ul li {
+    list-style: none;
+    margin: 0 0 0 -4px;
+    display: inline;
+
+}
+.active, #menu-center ul li a:hover  {
+    font-family:'Droid Sans', serif;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, 0.12);
+    padding: 32px 40px;
+
+}
+a {
+    font-family:'Droid Sans', serif;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    line-height: 72px;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+/* Tipografia */
+h1.display-4 {
+    margin-top: 50px;
+    font-size: 4.5em;
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+p {
+    letter-spacing: 0.04em;
+    margin-bottom: 70px;
+    color: white;
+}
+
+.btn {
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 0px;
+    padding: 7px 20px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+/* meio */
+#meio {
+    background: #191919;
+    padding: 150px 0px;
+}
+
+#imagem1, #imagem2, #imagem3 {
+    text-align: center;
+}
+
+#imagem1:hover, #imagem2:hover, #imagem3:hover {
+    width: 320px;
+}
+
+#meio h4{
+    margin-top: 20px;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+/* SOBRE */
+/* ********** */
+
+#sobre {
+    background: white;
+    height: 600px;
+}
+
+#sobre h1.ingles {
+    color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    font-size: 100px;
+    text-align: center;
+    margin-left: 510px;
+    margin-top: 40px;
+}
+
+#sobre h1.portugues {
+    position: absolute;
+    color: black;
+    font-size: 90px;
+    text-align: center;
+    margin-left: 410px;
+    margin-top: 80px;
+}
+
+
+#sobre h3 {
+    color: black;
+    margin-top: 230px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    font-size: 1.2em;
+    text-align: justify;
+    letter-spacing: 0.02em;
+    border-radius: 10px;
+}
+
+#portugues {
+    position: absolute;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 450px;
+    margin-left: 180px;
+}
+
+#ingles {
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 475px;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 2.5em;
+}
+
+#botao_anterior, #botao_proximo {
+    position: absolute;
+    top: 320px;
+}
+
+#botao_anterior {
+    left: -10px;
+}
+
+#botao_proximo {
+    right: 560px;
+}
+
+#botao_anterior, #botao_proximo {
+    border: none;
+    background: none;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+#botao_anterior:focus, #botao_proximo:focus {
+    outline-style: none;
+}
+
+
+
+.navegacao .btn-light {
+    font-size: 30px;
+    color: rgba(0,0,0,0.4);
+    border-color: white;
+    background-color: white;
+    
+}
+
+.owl-carousel {
+   margin-left: 300px;
+    margin-top: 550px;
+}
+
+
+
+/* FOOTER  */
+#contato {
+    background: rgba(0,0,0,0.4);
+    padding: 50px 0px 20px 0px;
+    height: 500px;
+}
+
+#contato h4 {
+    color: #919496;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+#contato .navbar-nav a {
+    color: white;
+    font-size: 1em;
+}
+
+#contato .navbar-nav a:hover {
+    color: yellow;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+#contato ul {
+    list-style: none;
+}
+
+#contato ul li {
+    margin: 5px 0px;
+}
+
+#contato .espaco {
+    float: left;
+    margin: 0 15px;
+}
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+    .logo {
+        width: 100px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        font-size: 0.9em;
+    }
+
+    h1.display-4 {
+        font-size: 2.3em;
+        font-weight: 900;
+        letter-spacing: 0.02em;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    p {
+        font-size: 0.9em;
+        letter-spacing: 0.04em;
+        margin-bottom: 70px;
+        color: white;
+    }
+
+    .btn {
+        font-weight: 500;
+        font-size: 1em;
+        padding: 3px 30px;
+        border-radius: 20px;
+    }
+
+    /* INICIATIVAS */
+    #meio {
+        background: #191919;
+        padding: 50px 130px;
+    }
+
+    #meio .col-sm-12 {
+        text-align: center;
+    }
+
+    #imagem1, #imagem2, #imagem3 {
+        text-align: center;
+        width: 200px;
+        margin-top: 25px;
+    }
+
+    #imagem1:hover, #imagem2:hover, #imagem3:hover {
+        width: 210px;
+    }
+
+    #meio h4{
+        margin-top: 10px;
+        color: white;
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    /* SOBRE */
+    /* ********** */
+
+    #sobre {
+        background: white;
+        height: 800px;
+    }
+
+    #sobre h1.ingles {
+        color: rgba(0, 0, 0, 0.2);
+        font-size: 4em;
+        text-align: center;
+        margin-left: 190px;
+        margin-top: 40px;
+    }
+
+
+    #sobre h1.portugues {
+        position: absolute;
+        color: black;
+        font-size: 3.5em;
+        text-align: center;
+        margin-left: 160px;
+        margin-top: 65px;
+    }
+
+    #sobre h3 {
+        margin-top: 90px;
+        margin-left: 55px;
+        width: 350px;
+        background: rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        font-size: 1.1em;
+        text-align: justify;
+        letter-spacing: 0.01em;
+    }
+
+    #portugues {
+        position: absolute;
+        text-align: center;
+        font-size: 1.9em;
+        margin-left: 155px;
+        margin-top: 350px;
+    }
+
+    #ingles {
+        position: absolute;
+        margin-left: 180px;
+        margin-top: 370px;
+        color: rgba(0, 0, 0, 0.2);
+        font-size: 2em;
+    }
+
+    .owl-carousel {
+        margin-top: 200px;
+    }
+
+    #botao_anterior, #botao_proximo {
+        display: none;
+    }
+
+    /* FOOTER  */
+    #contato {
+        background: rgba(0,0,0,0.4);
+        padding: 50px 0px 20px 0px;
+    }
+
+    #contato img {
+        width: 110px;
+        margin-bottom: 20px;
+    }
+
+    #contato h4 {
+        color: #919496;
+        text-transform: uppercase;
+        font-size: 1em;
+        margin-top: 15px;
+    }
+
+    #contato .navbar-nav a {
+        color: white;
+        font-size: 0.9em;
+    }
+
+    #contato .navbar-nav a:hover {
+        color: yellow;
+        font-size: 0.9em;
+        text-decoration: none;
+    }
+
+    #contato ul {
+        list-style: none;
+    }
+
+    #contato ul li {
+        margin: 5px 0px;
+    }
+
+    #contato .espaco {
+        margin: 0 15px 0px 0px;
+    }
+
+    #contato .espaco img {
+        width: 20px;
+        margin-top: 20px;
+    }
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .logo {
+        width: 110px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        font-size: 1em;
+    }
+
+    h1.display-4 {
+        font-size: 2.6em;
+        font-weight: 900;
+        letter-spacing: 0.02em;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    p {
+        font-size: 1em;
+        letter-spacing: 0.04em;
+        margin-bottom: 70px;
+        color: white;
+    }
+
+    .btn {
+        font-weight: 500;
+        font-size: 1.1em;
+        padding: 5px 30px;
+        border-radius: 20px;
+    }
+
+    /* INICIATIVAS */
+    #meio {
+        background: #191919;
+        padding: 70px 130px;
+    }
+
+
+    #imagem1, #imagem2, #imagem3 {
+        text-align: center;
+        width: 250px;
+        margin-top: 25px;
+    }
+
+    .col-md-4 {
+        text-align: center;
+    }
+
+    #imagem1:hover, #imagem2:hover, #imagem3:hover {
+        width: 260px;
+    }
+
+    #meio h4{
+        margin-top: 10px;
+        color: white;
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    /* SOBRE */
+    /* ********** */
+
+    #sobre {
+        background: white;
+        height: 750px;
+    }
+
+    #sobre h1.ingles {
+        color: rgba(0, 0, 0, 0.2);
+        position: absolute;
+        font-size: 4em;
+        text-align: center;
+        margin-left: 220px;
+        margin-top: 40px;
+    }
+
+    #sobre h1.portugues {
+        position: absolute;
+        color: black;
+        font-size: 3.5em;
+        text-align: center;
+        margin-left: 190px;
+        margin-top: 65px;
+    }
+
+    #sobre h3 {
+        margin-top: 100px;
+        padding: 20px;
+        font-size: 1.1em;
+        text-align: justify;
+        letter-spacing: 0.01em;
+    }
+
+    #botao_anterior, #botao_proximo {
+        position: absolute;
+        top: 265px;
+    }
+
+    #botao_anterior {
+        left: -20px;
+    }
+
+    #botao_proximo {
+        right: -20px;
+    }
+
+    .navegacao .btn-light {
+        font-size: 40px;
+        color: rgba(0,0,0,0.4);
+        border-color: white;
+        background-color: white;
+    }
+
+    .owl-carousel {
+        margin-top: 200px;
+    }
+
+    #portugues {
+        text-align: center;
+        font-size: 2.1em;
+        margin-top: 365px;
+    }
+
+    #ingles {
+        position: absolute;
+        margin-left: 210px;
+        margin-top: 390px;
+        color: rgba(0, 0, 0, 0.2);
+        font-size: 2.1em;
+    }
+
+    /* FOOTER  */
+    #contato {
+        background: rgba(0,0,0,0.4);
+        padding: 50px 0px 20px 0px;
+    }
+
+    #contato img {
+        margin-bottom: 20px;
+    }
+
+    #contato h4 {
+        color: #919496;
+        text-transform: uppercase;
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+    #contato .navbar-nav a {
+        color: white;
+        font-size: 0.9em;
+    }
+
+    #contato .navbar-nav a:hover {
+        color: yellow;
+        font-size: 0.9em;
+        text-decoration: none;
+    }
+
+    #contato ul {
+        list-style: none;
+    }
+
+    #contato ul li {
+        margin: 5px 0px;
+    }
+
+    #contato .espaco {
+        float: left;
+        margin: 0 15px;
+    }
+
+    #contato .espaco img {
+        width: 30px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .logo {
+        width: 120px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        font-size: 1em;
+    }
+
+    h1.display-4 {
+        font-size: 2.9em;
+        font-weight: 900;
+        letter-spacing: 0.02em;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    p {
+        font-size: 1em;
+        letter-spacing: 0.04em;
+        margin-bottom: 70px;
+        color: white;
+    }
+
+    .btn {
+        font-weight: 500;
+        font-size: 1.2em;
+        padding: 5px 30px;
+        border-radius: 20px;
+    }
+
+    /* INICIATIVAS */
+    #meio {
+        background: #191919;
+        padding: 70px 0px;
+    }
+
+    #imagem1, #imagem2, #imagem3 {
+        text-align: center;
+        width: 220px;
+        margin-top: 25px;
+    }
+
+    #imagem1:hover, #imagem2:hover, #imagem3:hover {
+        width: 230px;
+    }
+
+    #meio h4{
+        margin-top: 10px;
+        color: white;
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    /* SOBRE */
+    /* ********** */
+
+    #sobre {
+        background: white;
+        height: 600px;
+    }
+
+    #sobre h1.ingles {
+        color: rgba(0, 0, 0, 0.2);
+        position: absolute;
+        font-size: 5em;
+        text-align: center;
+        margin-left: 300px;
+        margin-top: 40px;
+    }
+
+    #sobre h1.portugues {
+        position: absolute;
+        color: black;
+        font-size: 4.5em;
+        text-align: center;
+        margin-left: 230px;
+        margin-top: 70px;
+    }
+
+    #sobre h3 {
+        width: 350px;
+        margin-left: 40px;
+        padding: 20px;
+        font-size: 1.1em;
+        text-align: justify;
+        letter-spacing: 0.01em;
+    }
+
+    #botao_anterior, #botao_proximo {
+        position: absolute;
+        top: 350px;
+        font-size: 20px;
+    }
+
+    #botao_anterior {
+        left: -10px;
+    }
+
+    #botao_proximo {
+        right: 350px;
+    }
+
+    .navegacao .btn-light {
+        font-size: 30px;
+        color: rgba(0,0,0,0.4);
+        border-color: white;
+        background-color: white;
+    }
+
+    #portugues {
+        position: absolute;
+        text-align: center;
+        font-size: 2.4em;
+        margin-top: 415px;
+        margin-left: 80px;
+    }
+
+    #ingles {
+        position: absolute;
+        margin-left: 110px;
+        margin-top: 440px;
+        color: rgba(0, 0, 0, 0.2);
+        font-size: 2.4em;
+    }
+
+    .owl-carousel {
+        margin-top: 310px;
+    }
+
+    /* FOOTER  */
+    #contato {
+        background: rgba(0,0,0,0.4);
+        padding: 50px 0px 20px 0px;
+    }
+
+    #contato img {
+        width: 100px;
+    }
+
+    #contato h4 {
+        color: #919496;
+        text-transform: uppercase;
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+    #contato .navbar-nav a {
+        color: white;
+        font-size: 0.9em;
+    }
+
+    #contato .navbar-nav a:hover {
+        color: yellow;
+        font-size: 0.9em;
+        text-decoration: none;
+    }
+
+    #contato ul {
+        list-style: none;
+    }
+
+    #contato ul li {
+        margin: 5px 0px;
+    }
+
+    #contato .espaco {
+        float: left;
+        margin: 0 15px;
+    }
+
+    #contato .espaco img {
+        width: 20px;
+        margin-top: 10px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .logo {
+        width: 130px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        font-size: 1em;
+    }
+
+    h1.display-4 {
+        margin-top: 50px;
+        font-size: 4em;
+        font-weight: 900;
+        letter-spacing: 0.02em;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    p {
+        font-size: 1em;
+        letter-spacing: 0.04em;
+        margin-bottom: 70px;
+        color: white;
+    }
+
+    .btn {
+        font-weight: 500;
+        font-size: 1.3em;
+        padding: 5px 30px;
+        border-radius: 20px;
+    }
+
+    #meio h4{
+        margin-top: 20px;
+        color: white;
+        font-size: 1em;
+        text-align: center;
+        margin-left: -20px;
+    }
+
+    #imagem1, #imagem2, #imagem3 {
+        text-align: center;
+        width: 250px;
+        margin-top: 25px;
+    }
+
+    #imagem1:hover, #imagem2:hover, #imagem3:hover {
+        width: 260px;
+    }
+
+    /* SOBRE */
+    /* ********** */
+
+    #sobre {
+        background: white;
+        height: 600px;
+    }
+
+    #sobre h1.ingles {
+        color: rgba(0, 0, 0, 0.2);
+        position: absolute;
+        font-size: 6em;
+        text-align: center;
+        margin-left: 450px;
+        margin-top: 40px;
+    }
+
+    #sobre h1.portugues {
+        position: absolute;
+        color: black;
+        font-size: 5.5em;
+        text-align: center;
+        margin-left: 350px;
+        margin-top: 75px;
+    }
+
+    #sobre h3 {
+        padding: 30px;
+        font-size: 1.3em;
+        text-align: justify;
+        letter-spacing: 0.03em;
+    }
+
+    #botao_anterior, #botao_proximo {
+        top: 355px;
+    }
+
+    #botao_proximo {
+        right: 470px;
+    }
+
+    #botao_anterior {
+        left: -10px;
+    }
+
+    .owl-carousel {
+        margin-top: 300px;
+    }
+
+    #portugues {
+        margin-left: 130px;
+    }
+
+    #ingles {
+        margin-left: 160px;
+    }
+
+    /* FOOTER  */
+    #contato {
+        background: rgba(0,0,0,0.4);
+        padding: 50px 0px 20px 0px;
+    }
+
+    #contato img {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    #contato h4 {
+        color: #919496;
+        text-transform: uppercase;
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+    #contato .navbar-nav a {
+        color: white;
+        font-size: 0.9em;
+    }
+
+    #contato .navbar-nav a:hover {
+        color: yellow;
+        font-size: 0.9em;
+        text-decoration: none;
+    }
+
+    #contato ul {
+        list-style: none;
+    }
+
+    #contato ul li {
+        margin: 5px 0px;
+    }
+
+    #contato .espaco {
+        float: left;
+        margin: 0 15px;
+    }
+
+    #contato .espaco img {
+        width: 30px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #meio h4{
+        margin-top: 20px;
+        color: white;
+        font-size: 1em;
+        text-align: center;
+        margin-left: -20px;
+    }
+}
